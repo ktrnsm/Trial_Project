@@ -10,4 +10,16 @@
     <PackageReference Include="EntityFramework" Version="6.4.4" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Project.COMMON\Project.COMMON.csproj" />
+    <ProjectReference Include="..\Project.DAL\Project.DAL.csproj" />
+    <ProjectReference Include="..\Project.ENTITIES\Project.ENTITIES.csproj" />
+    <ProjectReference Include="..\Project.MAP\Project.MAP.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="DesignPattern\GenericRepository\BaseRep\" />
+    <Folder Include="DesignPattern\GenericRepository\ConcRep\" />
+  </ItemGroup>
+
 </Project>

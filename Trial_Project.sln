@@ -3,19 +3,19 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.3.32929.385
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Project.ENTITIES", "Project.ENTITIES\Project.ENTITIES.csproj", "{D417BD3D-026F-4CDC-B851-EC42F10B844A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Project.ENTITIES", "Project.ENTITIES\Project.ENTITIES.csproj", "{D417BD3D-026F-4CDC-B851-EC42F10B844A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Project.MAP", "Project.MAP\Project.MAP.csproj", "{4F64C7CD-9884-427A-9ED3-04FAA8A6B9FC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Project.MAP", "Project.MAP\Project.MAP.csproj", "{4F64C7CD-9884-427A-9ED3-04FAA8A6B9FC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Project.DAL", "Project.DAL\Project.DAL.csproj", "{9EDE01C9-8118-455F-B002-EDCF7F6D8E35}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Project.DAL", "Project.DAL\Project.DAL.csproj", "{9EDE01C9-8118-455F-B002-EDCF7F6D8E35}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Project.BLL", "Project.BLL\Project.BLL.csproj", "{756E9147-1A2E-4C2F-84E3-0551A9BC73DD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Project.BLL", "Project.BLL\Project.BLL.csproj", "{756E9147-1A2E-4C2F-84E3-0551A9BC73DD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Project.COMMON", "Project.COMMON\Project.COMMON.csproj", "{C19CEE99-8DFE-4291-954C-A56DFEBC1375}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Project.COMMON", "Project.COMMON\Project.COMMON.csproj", "{C19CEE99-8DFE-4291-954C-A56DFEBC1375}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Project.API", "Project.API\Project.API.csproj", "{A647C140-5BF3-43E7-9CCB-ECB799353FA6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Project.DTO", "Project.DTO\Project.DTO.csproj", "{61B61370-A1B6-4D2F-84A7-65FDDD3C8C02}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Project.DTO", "Project.DTO\Project.DTO.csproj", "{61B61370-A1B6-4D2F-84A7-65FDDD3C8C02}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Project.MVCUI", "Project.MVCUI\Project.MVCUI.csproj", "{B57B331F-3BC4-47FD-A34F-B9EEFBD1C37C}"
 EndProject
@@ -23,6 +23,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 	ProjectSection(SolutionItems) = preProject
 		Project Stages.txt = Project Stages.txt
 	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WFASimulation", "WFASimulation\WFASimulation.csproj", "{C1BA2C93-D330-4EDB-8983-F1ED7DDE7C78}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -62,6 +64,10 @@ Global
 		{B57B331F-3BC4-47FD-A34F-B9EEFBD1C37C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B57B331F-3BC4-47FD-A34F-B9EEFBD1C37C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B57B331F-3BC4-47FD-A34F-B9EEFBD1C37C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C1BA2C93-D330-4EDB-8983-F1ED7DDE7C78}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C1BA2C93-D330-4EDB-8983-F1ED7DDE7C78}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C1BA2C93-D330-4EDB-8983-F1ED7DDE7C78}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C1BA2C93-D330-4EDB-8983-F1ED7DDE7C78}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

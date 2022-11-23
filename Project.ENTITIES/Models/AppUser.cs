@@ -19,7 +19,7 @@ namespace Project.ENTITIES.Models
         public string Password { get; set; }
         public UserRole Role { get; set; }
         public Guid ActivationCode { get; set; }
-        public bool Activate { get; set; }
+        public bool Active { get; set; }
         public string Email { get; set; }
 
         //Relational Properties
