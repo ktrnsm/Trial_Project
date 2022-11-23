@@ -1,1 +1,12 @@
 Project Stages
+NTier Levels
+>BLL
+>COMMON
+>DAL
+>DTO
+>ENITIES
+>MAP
+
+ASP.NET> MVC and API
+
+
